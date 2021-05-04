@@ -1,0 +1,54 @@
+
+body{
+    background-image: url(../images/code.jfif);
+    font-family: 'Roboto', sans-serif;
+    background-size: cover;
+    margin: 0;
+}
+
+.banner{
+    padding: 50px;
+    background-image: url(../images/dark.jfif);
+    background-size: cover;
+    color: seashell;
+    border-style: solid;
+    border-color: seashell;
+    border-left: thin;
+    border-right: thin;
+}
+h2{
+    padding-left: 110px;
+    font-size: xx-large;
+    background-image: url(../images/dark.jfif);
+    background-size: 100%;
+    color: seashell;
+    border-style: solid;
+    border-color: seashell;
+}
+.navbar ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+.navbar li{
+    padding-left: 30px;
+}
+.navbar{
+    background-image: url(../images/dark.jfif);
+    background-size: 100%;
+    color: white;
+    border-style: solid;
+    border-color: seashell;
+    border-left: thin;
+    border-right: thin;
+    border-top: thin;
+}
+a:link{
+    color: white;
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+    text-decoration: none;
+}
