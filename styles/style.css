@@ -18,6 +18,7 @@ body{
     border-left: thin;
     border-right: thin;
     border-color: steelblue;
+    opacity: .9;
 }
 h2{
     margin-left: 50px;
@@ -35,6 +36,7 @@ h2{
     border-width: medium;
     border-color: steelblue;
     border-radius: 7px;
+    opacity: .9;
 }
 .navbar ul{
     list-style-type: none;
@@ -83,7 +85,8 @@ a:hover{
     border-style: solid;
 }
 #portfolio-tiles{
-    text-align: center;    
+    text-align: center;
+    opacity: 1;    
 }
 .button{
     margin: 5px;
