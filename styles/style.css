@@ -3,6 +3,9 @@ body{
     background-image: url(../images/code.jfif);
     font-family: 'Roboto', sans-serif;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
     margin: 0;
 }
 
@@ -17,12 +20,16 @@ body{
     border-right: thin;
 }
 h2{
+    padding-top: 10px;
+    padding-bottom: 10px;
     padding-left: 110px;
     font-size: xx-large;
     background-image: url(../images/dark.jfif);
     background-size: 100%;
     color: seashell;
     border-style: solid;
+    border-left: thin;
+    border-right: thin;
     border-color: seashell;
 }
 .navbar ul{
@@ -47,8 +54,34 @@ h2{
 a:link{
     color: white;
     text-decoration: none;
+    
 }
 a:visited{
     color: white;
     text-decoration: none;
+}
+a:hover{
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+}
+
+#headshot{
+    margin-top: 10px;
+    height: 150px;
+    border-radius: 150px;
+    border-color: white;
+    border-style: solid;
+}
+.tiles{
+    height: 250px;
+    margin: 10px;
+}
+.tiles:hover{
+    height: 245px;
+    margin: 10px;
+    border-color: red;
+    border-style: solid;
+}
+#portfolio-tiles{
+    text-align: center;    
 }
