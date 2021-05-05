@@ -75,18 +75,30 @@ a:hover{
     border-style: solid;
 }
 .tiles{
+    
     height: 250px;
-    margin: 10px;
+    margin: 0px;
+    padding: 0;
 }
 .tiles:hover{
     height: 245px;
-    margin: 10px;
+    margin: 0px;
     border-color: red;
     border-style: solid;
 }
+.tile-text{
+    margin: 20;
+    padding: 0;
+    background-color: steelblue;
+}
 #portfolio-tiles{
     text-align: center;
-    opacity: 1;    
+    opacity: .9;
+    float: left;
+    padding-right: 80px;    
+}
+.tile-container{
+    margin-top: 20px;
 }
 .button{
     margin: 5px;
