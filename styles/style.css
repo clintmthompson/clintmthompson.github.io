@@ -93,12 +93,12 @@ a:hover{
 }
 #portfolio-tiles{
     text-align: center;
-    opacity: .9;
-    float: left;
+    opacity: .98;
     padding-right: 80px;    
 }
 .tile-container{
     margin-top: 20px;
+    display: inline-block;
 }
 .button{
     margin: 5px;
@@ -115,4 +115,129 @@ a:hover{
 }
 .button:hover{
     background-color: rgb(40, 90, 131);
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+    body{
+        background-image: url(../images/palms.jfif);
+        font-family: 'Share Tech', sans-serif;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        margin: 0;
+    }
+    
+    .banner{
+        margin-top: 0;
+        padding: 20px;
+        background-image: url(../images/dark.jfif);
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: seashell;
+        border-style: solid;
+        border-left: thin;
+        border-right: thin;
+        border-color: steelblue;
+        opacity: .9;
+    }
+    h2{
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 60px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        font-size: 20px;
+        background-image: url(../images/dark.jfif);
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: seashell;
+        border-style: solid;
+        border-width: medium;
+        border-color: steelblue;
+        border-radius: 7px;
+        opacity: .9;
+    }
+    .navbar ul{
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+    }
+    .navbar li{
+        padding-left: 20px;
+    }
+    .navbar{
+        background-image: url(../images/dark.jfif);
+        background-size: 100%;
+        color: white;
+        font-size: 20px;
+    }
+    a:link{
+        color: white;
+        text-decoration: none;
+        
+    }
+    a:visited{
+        color: white;
+        text-decoration: none;
+    }
+    a:hover{
+        color: rgb(255, 0, 0);
+        text-decoration: none;
+    }
+    
+    #headshot{
+        margin: 20px;
+        height: 150px;
+        border-radius: 150px;
+        border-color: white;
+        border-style: solid;
+    }
+    .tiles{
+        
+        height: 200px;
+        margin: 0px;
+        padding: 0;
+        text-align: center;
+    }
+    .tiles:hover{
+        height: 200px;
+        margin: 0px;
+        border-color: red;
+        border-style: solid;
+    }
+    .tile-text{
+        margin: 20;
+        padding: 0;
+        background-color: steelblue;
+    }
+    #portfolio-tiles{
+        opacity: .98;
+        padding-right: 0px; 
+        padding-left: 0px;    
+    }
+    .tile-container{
+        margin-top: 20px;
+        display: inline-block;
+    }
+    .button{
+        margin: 5px;
+        border-radius: 8px;
+        height: 40px;
+        width: 80px;
+        font-family: 'Share Tech', sans-serif;
+        font-size: large;
+        color: white;
+        background-color: steelblue;
+        text-shadow: 0;
+        border-width: thin;
+        border-color: white;
+    }
+    .button:hover{
+        background-color: rgb(40, 90, 131);
+    }
 }
