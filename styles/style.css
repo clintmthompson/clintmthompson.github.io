@@ -127,6 +127,9 @@ a:hover{
 .button:hover{
     background-color: rgb(40, 90, 131);
 }
+#portfolio-tiles{
+    padding: 10px;
+}
 
 
 
@@ -210,13 +213,15 @@ a:hover{
     }
     .tiles{
         
-        height: 200px;
+        height: auto;
+        width: 100%;
         margin: 0px;
         padding: 0;
         text-align: center;
     }
     .tiles:hover{
-        height: 200px;
+        height: auto;
+        width: 100%;
         margin: 0px;
         border-color: red;
         border-style: solid;
