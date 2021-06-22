@@ -1,6 +1,6 @@
 
 body{
-    background-image: url(../images/palms.jfif);
+    background: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(https://media.giphy.com/media/3o85xBN00ue84J1SZq/giphy.gif);
     font-family: 'Share Tech', sans-serif;
     background-size: cover;
     background-repeat: no-repeat;
@@ -100,6 +100,17 @@ a:hover{
     margin-top: 20px;
     display: inline-block;
 }
+#skills-tiles{
+    opacity: .98;
+    padding-right: 0px; 
+    padding-left: 110px;
+}
+.skill-tile-individual{
+    height: 160px;
+    margin: 0px;
+    padding: 0;
+    border-radius: 100px;
+}
 .button{
     margin: 5px;
     border-radius: 8px;
@@ -122,7 +133,7 @@ a:hover{
 @media only screen and (max-width: 600px) {
 
     body{
-        background-image: url(../images/palms.jfif);
+        background: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(https://media.giphy.com/media/3o85xBN00ue84J1SZq/giphy.gif);
         font-family: 'Share Tech', sans-serif;
         background-size: cover;
         background-repeat: no-repeat;
@@ -224,6 +235,7 @@ a:hover{
         margin-top: 20px;
         display: inline-block;
     }
+
     .button{
         margin: 5px;
         border-radius: 8px;
@@ -239,5 +251,16 @@ a:hover{
     }
     .button:hover{
         background-color: rgb(40, 90, 131);
+    }
+    #skills-tiles{
+        opacity: .98;
+        padding-right: 0px; 
+        padding-left: 50px;
+    }
+    .skill-tile-individual{
+        height: 160px;
+        margin: 0px;
+        padding: 0;
+        border-radius: 100px;
     }
 }
