@@ -1,5 +1,5 @@
 body{
-    background-image: url('https://media.giphy.com/media/3ov9k22S4De372LQf6/giphy.gif');
+    background-image: url('https://media.giphy.com/media/RlwF2vFb4y7bDnWvcO/giphy.gif');
     background-size: 100% auto;
     background-repeat: no-repeat;
     position: center center fixed;
@@ -74,11 +74,17 @@ button{
     margin-bottom: 20px;
 }
 
+.background-tint {
+    background-color: rgba(7, 23, 54, 0.8); /* Tint color */
+    background-blend-mode: multiply;
+}
+  
+
 
 
 @media only screen and (max-width: 600px) {
     body{
-        background-image: url('https://media.giphy.com/media/3ov9k22S4De372LQf6/giphy.gif');
+        background-image: url('https://media.giphy.com/media/RlwF2vFb4y7bDnWvcO/giphy.gif');
         background-repeat: no-repeat;
         position: center center fixed;
         background-size: cover;
@@ -151,6 +157,10 @@ button{
         border-width: medium;
         border-color: #82ccdd;
         margin-bottom: 20px;
+    }
+    .background-tint {
+        background-color: rgba(7, 23, 54, 0.8); /* Tint color */
+        background-blend-mode: multiply;
     }
 
   }
