@@ -1,0 +1,157 @@
+body{
+    background-image: url('https://media.giphy.com/media/3ov9k22S4De372LQf6/giphy.gif');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    position: center center fixed;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -o-background-size: 100% auto;
+}
+
+.header{
+    padding-left: 25%;
+    padding: 30px;
+    background-color: #0a3d62;
+    color: #ddf0ff;
+    margin-top: 1px;
+    opacity: .85;
+}
+
+.body{
+    padding-left: 25%;
+    padding: 30px;
+    background-color: #0a3d62;
+    color: #ddf0ff;
+    margin: 50px;
+    opacity: .85;
+    border-radius: 15px;
+}
+
+.tile-container{
+    margin-top: 20px;
+    display: inline-block;
+    
+}
+
+#skills-tiles{
+    opacity: .98;
+    padding-right: 0px; 
+    padding-left: 110px;
+}
+
+.skill-tile-individual{
+    height: 160px;
+    margin: 0px;
+    padding: 0;
+    border-radius: 100px;
+    border-style: solid;
+    border-width: medium;
+    border-color: #82ccdd;
+}
+
+#gallery img{
+    height: 300px;
+}
+
+#gallery{
+    color: black;
+}
+
+.resume-header{
+    color: #44bd32;
+}
+button{
+    margin: 5px;
+}
+
+#headshot{
+    height: 300px;
+    border-radius: 150px;
+    margin-left: 40%;
+    border-style: solid;
+    border-width: medium;
+    border-color: #82ccdd;
+    margin-bottom: 20px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    body{
+        background-image: url('https://media.giphy.com/media/3ov9k22S4De372LQf6/giphy.gif');
+        background-repeat: no-repeat;
+        position: center center fixed;
+        background-size: cover;
+    }
+    
+    .header{
+        padding-left: 25%;
+        padding: 30px;
+        background-color: #0a3d62;
+        color: #ddf0ff;
+        margin: 0px;
+        opacity: .85;
+        width: 100%;
+    }
+    
+    .body{
+        padding-left: 0%;
+        padding: 30px;
+        background-color: #0a3d62;
+        color: #ddf0ff;
+        margin: 15px;
+        opacity: .85;
+        border-radius: 15px;
+        font-size: 15px;
+    }
+    
+    .tile-container{
+        margin-top: 20px;
+        display: inline-block;
+        
+    }
+    
+    #skills-tiles{
+        opacity: .98;
+        padding: 0px;
+        text-align: center; 
+    }
+    
+    .skill-tile-individual{
+        height: 160px;
+        margin: 0px;
+        padding: 0;
+        border-radius: 100px;
+        border-style: solid;
+        border-width: medium;
+        border-color: #82ccdd;
+    }
+    
+    #gallery img{
+        width: 100%;
+        height: auto;
+    }
+    
+    #gallery{
+        color: black;
+    }
+    
+    .resume-header{
+        color: #44bd32;
+    }
+    button{
+        margin: 5px;
+    }
+    
+    #headshot{
+        height: 300px;
+        border-radius: 150px;
+        margin: 15px;
+        border-style: solid;
+        border-width: medium;
+        border-color: #82ccdd;
+        margin-bottom: 20px;
+    }
+
+  }
+  

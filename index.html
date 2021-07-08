@@ -4,43 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/846dfe2bc6.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Share+Tech&display=swap" rel="stylesheet">
-    <link type="text/css" rel="stylesheet" href="./styles/style.css">
-    <title>Home</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <div class="navbar">
-        <ul>
-            <li><a href="index.html">Home</li>
-            <li><a href="./html/aboutme.html">About Me</a></li>
-            <li><a href="./html/projects.html">Projects</a></li>
-            <li><a href="./html/resume.html">Resume</a></li>
-            <li><a href="./html/contact.html">Contact</a></li>
-        </ul>
+    <nav class="navbar navbar-expand navbar-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="./index.html">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./aboutme.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./resume.html">Resume</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+    <div class="header">
+        <h1>Welcome</h1>
     </div>
 
-    <h1 class="banner"> 
-        Welcome_______
-        <i class="fas fa-hand-paper"></i>
-    </h1>
-    
-    <h2>
-        Hello.
-        <br>
-        <br>
-        Thank you for taking the time to view my portfolio page. 
-        <br>
-        I'm excited to show you my projects, and I hope to demonstrate my ability to provide value to your business! <br>
-        Feel free to look around, and if you have any questions, you can email me via the link on my contacts page.
-    </h2>
+    <div class="body">
+        <h4>
+            Hello,
+            <br>
+            <br>
+            Thank you for taking the time to view my portfolio page. 
+            <br>
+            I'm excited to show you my projects, and I hope to demonstrate my ability to provide value to your business! <br>
+            Feel free to look around, and if you have any questions, you can email me via the link on my contacts page.
+        </h4>
+    </div>
 
+    <div>
+        <img id="headshot" src="./assets/headshot.jpg" alt="Photo of my face">
+    </div>
     
-    
- 
-    
-    <script src="../javascript/portfolio.js"></script>
 </body>
 </html>
