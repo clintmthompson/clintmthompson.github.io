@@ -1,18 +1,13 @@
 body{
-    background-image: url('https://media.giphy.com/media/RlwF2vFb4y7bDnWvcO/giphy.gif');
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    position: center center fixed;
-    -webkit-background-size: 100% auto;
-    -moz-background-size: 100% auto;
-    -o-background-size: 100% auto;
+    background-color: #324cbd;
+    width: 100%;
 }
 
 .header{
     padding-left: 25%;
     padding: 30px;
-    background-color: #0a3d62;
-    color: #ddf0ff;
+    background-color: #ffffff;
+    color: #000000;
     margin-top: 1px;
     opacity: .85;
 }
@@ -20,8 +15,8 @@ body{
 .body{
     padding-left: 25%;
     padding: 30px;
-    background-color: #0a3d62;
-    color: #ddf0ff;
+    background-color: #ffffff;
+    color: #000000;
     margin: 50px;
     opacity: .85;
     border-radius: 15px;
@@ -46,7 +41,7 @@ body{
     border-radius: 100px;
     border-style: solid;
     border-width: medium;
-    border-color: #82ccdd;
+    border-color: #000000;
 }
 
 #gallery img{
@@ -58,7 +53,7 @@ body{
 }
 
 .resume-header{
-    color: #44bd32;
+    color: #324cbd;
 }
 button{
     margin: 5px;
@@ -70,7 +65,7 @@ button{
     margin-left: 40%;
     border-style: solid;
     border-width: medium;
-    border-color: #82ccdd;
+    border-color: #000000;
     margin-bottom: 20px;
 }
 
@@ -84,17 +79,14 @@ button{
 
 @media only screen and (max-width: 600px) {
     body{
-        background-image: url('https://media.giphy.com/media/RlwF2vFb4y7bDnWvcO/giphy.gif');
-        background-repeat: no-repeat;
-        position: center center fixed;
-        background-size: cover;
+        width: 100%;
     }
     
     .header{
         padding-left: 25%;
         padding: 30px;
-        background-color: #0a3d62;
-        color: #ddf0ff;
+        background-color: #ffffff;
+        color: #000000;
         margin: 0px;
         opacity: .85;
         width: 100%;
@@ -103,7 +95,7 @@ button{
     .body{
         padding-left: 0%;
         padding: 30px;
-        background-color: #0a3d62;
+        background-color: #000000;
         color: #ddf0ff;
         margin: 15px;
         opacity: .85;
@@ -116,7 +108,7 @@ button{
         display: inline-block;
         
     }
-    
+
     #skills-tiles{
         opacity: .98;
         padding: 0px;
@@ -130,7 +122,7 @@ button{
         border-radius: 100px;
         border-style: solid;
         border-width: medium;
-        border-color: #82ccdd;
+        border-color: #000000;
     }
     
     #gallery img{
@@ -143,7 +135,7 @@ button{
     }
     
     .resume-header{
-        color: #44bd32;
+        color: #324cbd;
     }
     button{
         margin: 5px;
@@ -155,7 +147,7 @@ button{
         margin: 15px;
         border-style: solid;
         border-width: medium;
-        border-color: #82ccdd;
+        border-color: #000000;
         margin-bottom: 20px;
     }
     .background-tint {
