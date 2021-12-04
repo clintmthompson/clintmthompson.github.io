@@ -6,8 +6,7 @@ body{
 .header{
     padding-left: 25%;
     padding: 30px;
-    background-color: #ffffff;
-    color: #000000;
+    color: #ffffff;
     margin-top: 1px;
     opacity: .85;
 }
@@ -15,8 +14,7 @@ body{
 .body{
     padding-left: 25%;
     padding: 30px;
-    background-color: #ffffff;
-    color: #000000;
+    color: #ffffff;
     margin: 50px;
     opacity: .85;
     border-radius: 15px;
@@ -53,7 +51,7 @@ body{
 }
 
 .resume-header{
-    color: #324cbd;
+    color: #ffffff;
 }
 button{
     margin: 5px;
@@ -85,8 +83,6 @@ button{
     .header{
         padding-left: 25%;
         padding: 30px;
-        background-color: #ffffff;
-        color: #000000;
         margin: 0px;
         opacity: .85;
         width: 100%;
@@ -95,12 +91,10 @@ button{
     .body{
         padding-left: 0%;
         padding: 30px;
-        background-color: #000000;
-        color: #ddf0ff;
         margin: 15px;
         opacity: .85;
         border-radius: 15px;
-        font-size: 15px;
+        font-size: 2rem;
     }
     
     .tile-container{
@@ -135,7 +129,7 @@ button{
     }
     
     .resume-header{
-        color: #324cbd;
+        color: #8b87c0;
     }
     button{
         margin: 5px;

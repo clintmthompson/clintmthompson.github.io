@@ -4,40 +4,40 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(to left,#7e814c, #273d27);
     align-items: center;
     justify-content: center;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    background-image: linear-gradient(to right,rgb(255, 255, 255), rgb(226, 234, 245));
     
 }
-#header{
+video {  
+    width: 100vw;
+    height: 90vh;
+    object-fit: cover;
+    filter: saturate(80%) brightness(100%);
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+  }
+
+
+
+header{
+    
+    color: rgb(0, 0, 0);
+    font-size: .8rem;
+    height: 2.5rem;
+    padding: 2%;
+    border: 1px solid rgb(184, 180, 136);
+}
+#title{
+    margin: 0px;
     display: flex;
-    background-image: url(https://miro.medium.com/max/1200/1*zQBk7koLHdk_6RxoDS35-A.jpeg);
-    background-position: center, center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: seashell;
-    height: 82vh;
-    text-align: center;
-    margin: 0px;
-    align-items: center;
-    justify-content: center;
-}
-
-#header button:hover{
-    background-image:linear-gradient(to right,#b4bb57, #c0b392);
-}
-
-#nav{
-    display: grid;
-    color: rgb(255, 255, 255);
-    margin: 0px;
-    padding: 10px;
-    padding-left: 30px;
-    border-bottom: 2px solid white;
-    font-size: large;
-    text-align: center;
+    text-align: left;
     justify-content: left;
-    height: 12vh;
+
 }
 
 #aboutUs{
@@ -45,58 +45,26 @@ body{
     border-bottom: 2px solid white;
     display: flex;
     flex-direction: column;
-    text-align: center;
+    justify-content: center;
     align-content: center;
-    color: white;
-    font-size: x-large;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
     padding: 0px;
-    width: 100%;
+    width: 90%;
+    padding: 5%;
     height: 100vh;
-    background-image: linear-gradient(to left,#383830, #1a271a);
-
 }
 .subheader{
-    text-align: center;
+    text-align: left;
     justify-content: center;
     width: 95vw;
 }
-button {
-    align-items: center;
-    appearance: none;
-    background-image: linear-gradient(to left,#7f8349, #000000);
-    border: 0;
-    border-radius: 6px;
-    box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
-    box-sizing: border-box;
-    border: 1px solid white;
-    color: #fff;
-    cursor: pointer;
-    display: inline-flex;
-    font-family: "JetBrains Mono",monospace;
-    height: 48px;
-    justify-content: center;
-    line-height: 1;
-    list-style: none;
-    overflow: hidden;
-    padding-left: 16px;
-    padding-right: 16px;
-    position: relative;
-    text-align: left;
-    text-decoration: none;
-    transition: box-shadow .15s,transform .15s;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-    white-space: nowrap;
-    will-change: box-shadow,transform;
-    font-size: 18px;
-  }
 #contact{
     color: white;
     display: flex;
     flex-direction: column;
     text-align: center;
-    background-image: linear-gradient(to left,#7e814c, #273d27);
+    background-image: linear-gradient(to left,#000000, #353535);
     height: 100vh;
 
     justify-content: center;
