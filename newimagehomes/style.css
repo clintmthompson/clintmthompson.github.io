@@ -15,22 +15,17 @@ video {
     width: 100vw;
     height: 90vh;
     object-fit: cover;
-    filter: saturate(80%) brightness(100%);
+    filter: saturate(80%) grayscale(100%) brightness(50%);
     top: 0;
     left: 0;
     z-index: -1;
 
   }
-
-
-
 header{
-    
-    color: rgb(0, 0, 0);
-    font-size: .8rem;
-    height: 2.5rem;
-    padding: 2%;
-    border: 1px solid rgb(184, 180, 136);
+    position: absolute;
+    top: 50vh;
+    margin: 10vw;
+    color: white;
 }
 #title{
     margin: 0px;
@@ -72,4 +67,7 @@ header{
 #project{
     width: 50%;
     height: 25vw;
+}
+footer{
+    font-size: 2px;
 }

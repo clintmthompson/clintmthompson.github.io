@@ -11,13 +11,24 @@ body{
     opacity: .85;
 }
 
-.body{
+article{
     padding-left: 25%;
     padding: 30px;
     color: #ffffff;
     margin: 50px;
     opacity: .85;
     border-radius: 15px;
+}
+.aboutImages{
+    width: 100%;
+    border: 2px solid white;
+    margin: 0px;
+    padding: 0px;
+}
+figcaption{
+    border: 2px solid white;
+    margin: 0px;
+    padding: 0px;
 }
 
 .tile-container{
@@ -88,7 +99,7 @@ button{
         width: 100%;
     }
     
-    .body{
+    article{
         padding-left: 0%;
         padding: 30px;
         margin: 15px;
