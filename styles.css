@@ -2,7 +2,10 @@ body{
     background-color: #324cbd;
     width: 100%;
 }
-
+.body{
+    color: white;
+    margin: 20px;
+}
 .header{
     padding-left: 25%;
     padding: 30px;
@@ -20,7 +23,7 @@ article{
     border-radius: 15px;
 }
 .aboutImages{
-    width: 100%;
+    width: 50%;
     border: 2px solid white;
     margin: 0px;
     padding: 0px;
@@ -139,9 +142,6 @@ button{
         color: black;
     }
     
-    .resume-header{
-        color: #8b87c0;
-    }
     button{
         margin: 5px;
     }
@@ -158,6 +158,12 @@ button{
     .background-tint {
         background-color: rgba(7, 23, 54, 0.8); /* Tint color */
         background-blend-mode: multiply;
+    }
+    h2{
+        font-size: medium;
+    }
+    p{
+        font-size: small;
     }
 
   }
