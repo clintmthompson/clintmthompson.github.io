@@ -1,16 +1,16 @@
 body{
-    background-color: #324cbd;
+    background-color: #0a1130;
     width: 100%;
+    font-family: 'Source Code Pro', monospace;
 }
-.body{
+main{
     color: white;
     margin: 20px;
+    width: 100%;
 }
 .header{
-    padding-left: 25%;
-    padding: 30px;
     color: #ffffff;
-    margin-top: 1px;
+    margin: 20px;
     opacity: .85;
 }
 
@@ -65,7 +65,7 @@ figcaption{
 }
 
 .resume-header{
-    color: #ffffff;
+    color: #957dcc;
 }
 button{
     margin: 5px;
@@ -80,25 +80,27 @@ button{
     border-color: #000000;
     margin-bottom: 20px;
 }
-
-.background-tint {
-    background-color: rgba(7, 23, 54, 0.8); /* Tint color */
-    background-blend-mode: multiply;
+.var{
+    color: rgb(148, 214, 48);
 }
+h1{
+    color: rgb(253, 69, 69);
+}
+
   
 
 
 
 @media only screen and (max-width: 600px) {
-    body{
+    main{
         width: 100%;
     }
     
     .header{
-        padding-left: 25%;
-        padding: 30px;
-        margin: 0px;
-        opacity: .85;
+    color: #ffffff;
+    margin: 20px;
+    opacity: .85;
+}
         width: 100%;
     }
     
@@ -155,16 +157,13 @@ button{
         border-color: #000000;
         margin-bottom: 20px;
     }
-    .background-tint {
-        background-color: rgba(7, 23, 54, 0.8); /* Tint color */
-        background-blend-mode: multiply;
-    }
     h2{
         font-size: medium;
     }
     p{
         font-size: small;
     }
-
-  }
+    nav{
+        font-size: .8rem;
+    }
   
