@@ -76,16 +76,31 @@ a{
     text-decoration: none;
     font-size: .9rem;
 }
+section{
+    width: 100%;
+}
 img{
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
-    margin: 5vw;
-    width: 90vw;
+    margin: 1vw;
+    width: 45vw;
     height: auto;
-    border: 5vw solid rgb(167, 161, 161);
+    border: 1vw solid rgb(167, 161, 161);
 }
 #gallery-header{
     margin-left: 10vw;
     margin-top: 5vw;
 }
+
+@media only screen and (max-width: 600px) {
+    img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5vw;
+        width: 90vw;
+        height: auto;
+        border: 5vw solid rgb(167, 161, 161);
+    }
+  }
